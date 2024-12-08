@@ -137,6 +137,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text">My Resume</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link active" href="./python.html" aria-current="page"> 
+<span class="menu-text">python test</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
@@ -187,7 +191,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="python-example-with-common-libraries">Python Example with Common Libraries</h2>
 <p>This is an example of how to use Python code in a R Markdown document. We will use the <code>reticulate</code> package to run Python code in this R Markdown document.</p>
 <p>To a void issues when first using this template, or cloning to a new device. The python code chunks have been commented out so it doesn’t trigger the jupyter notebook. Triggering the jupyter notebook will require a python environment, and the required jupyter notebook libraries. Downloading this libraries can be a hassle if not using python. When using Python you will have to follow the steps to make sure your project is properly set up to run python code in R-studio.</p>
-<div id="a2632c80" class="cell" data-execution_count="1">
+<div id="de98c517" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import common libraries</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
@@ -245,7 +249,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<div id="c2bb198f" class="cell" data-execution_count="2">
+<div id="9381dea6" class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot the data</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>plt.plot(data[<span class="st">"x"</span>], data[<span class="st">"y"</span>], label<span class="op">=</span><span class="st">"sin(x)"</span>)</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"x"</span>)</span>
