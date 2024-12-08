@@ -1,5 +1,5 @@
 ---
-title: "Albert Einstein"
+title: "Albert Tesla"
 subtitle: "my data science portfolio"
 format: html
 # use quarto markdown to 
@@ -8,6 +8,7 @@ format: html
 # Introduction
 
 **Portfolio Introduction**
+
 
 - port intro here but remove for instructions -
 
